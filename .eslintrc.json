@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "prettier",
+    "airbnb",
+    "plugin:node/recommended",
+    "eslint:recommended"
+  ],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "import/extensions": "off",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "semi": "off"
+  }
+}
